@@ -286,6 +286,16 @@ testing = ["covdefaults (>=2.3)", "coverage (>=7.3.2)", "diff-cover (>=8.0.1)", 
 typing = ["typing-extensions (>=4.8)"]
 
 [[package]]
+name = "flash-attention"
+version = "1.0.0"
+description = "Flash Attention2 operator on Huawei Ascend 910A."
+optional = false
+python-versions = "*"
+files = [
+    {file = "flash_attention-1.0.0-py3-none-any.whl", hash = "sha256:9f8293b16dda6e46149cf73631158c40afec1393db66698fa45f8ba4b64b5f3e"},
+]
+
+[[package]]
 name = "frozenlist"
 version = "1.4.1"
 description = "A list-like structure which implements collections.abc.MutableSequence"
@@ -2618,4 +2628,4 @@ torch = "2.1.2"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "42dccdca3907256dcb27da5e4e1a0b4e10b095eafa5e730228d7634952d36c64"
+content-hash = "3b334663abfeb3b684ab9a54d50dc53416cfa8a6eba4eb84ac6e5d47689f74eb"

@@ -12,6 +12,7 @@ transformers = "^4.39.3"
 sentencepiece = "^0.2.0"
 protobuf = "^5.26.1"
 vllm = "^0.4.0.post1"
+flash-attention = "^1.0.0"
 
 
 [build-system]
