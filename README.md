@@ -1,5 +1,11 @@
 # chat-transformers
 
+## How to use
+```sh
+make install
+time poetry run python main.py
+```
+
 ## Setting HUGGING_FACE_HUB_TOKEN
 
 ```sh
