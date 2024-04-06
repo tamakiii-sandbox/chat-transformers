@@ -17,6 +17,7 @@ bitsandbytes = "^0.43.0"
 optimum = "^1.18.0"
 auto-gptq = "^0.7.1"
 bitsandbytes-cuda117 = "^0.26.0.post2"
+langchain = "^0.1.14"
 
 [build-system]
 requires = ["poetry-core"]
