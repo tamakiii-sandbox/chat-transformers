@@ -1,7 +1,12 @@
-.PHONY: help install
+.PHONY: help install run
+
+PYTORCH_CUDA_ALLOC_CONF := expandable_segments:True
 
 help:
 	@cat $(firstword $(MAKEFILE_LIST))
 
 install:
 	python -m poetry install --no-root
+
+run:
+	time poetry run python main.py
