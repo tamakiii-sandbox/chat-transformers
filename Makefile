@@ -8,7 +8,7 @@ help:
 info:
 	nvidia-smi
 	nvcc --version
-	poetry which python
+	poetry run which python
 	poetry run python --version
 
 install:
