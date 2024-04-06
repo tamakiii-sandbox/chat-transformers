@@ -14,6 +14,7 @@ protobuf = "^5.26.1"
 vllm = "^0.4.0.post1"
 flash-attention = "^1.0.0"
 bitsandbytes = "^0.43.0"
+optimum = "^1.18.0"
 
 
 [build-system]
