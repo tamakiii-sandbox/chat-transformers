@@ -245,14 +245,14 @@ benchmark = ["matplotlib", "pandas"]
 test = ["scipy"]
 
 [[package]]
-name = "bitsandbytes-cuda115"
+name = "bitsandbytes-cuda117"
 version = "0.26.0.post2"
 description = "8-bit optimizers and quantization routines."
 optional = false
 python-versions = "*"
 files = [
-    {file = "bitsandbytes-cuda115-0.26.0.post2.tar.gz", hash = "sha256:952b81d486ae69601dce0def306e73afe54ddf845dc01e405cc7e447004b5c04"},
-    {file = "bitsandbytes_cuda115-0.26.0.post2-py3-none-any.whl", hash = "sha256:2949f39586fed2c7729325037d312cbf7ffc4cf0986de1cd242e7a46af787847"},
+    {file = "bitsandbytes-cuda117-0.26.0.post2.tar.gz", hash = "sha256:b54ad77790e824e3daa55643b631e01a790fe4b114c6d9aece6dac7db96b4a6d"},
+    {file = "bitsandbytes_cuda117-0.26.0.post2-py3-none-any.whl", hash = "sha256:9c41b20dea027f6764ace77a4a14d922384752d91f75bc7180bac3328da5fab9"},
 ]
 
 [[package]]
@@ -3537,4 +3537,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "19f3cfdfcd973453e2cfde780e6c9b420f58040a578f79f037bea4aaaa13a81f"
+content-hash = "9a0c477846a4f44e11484400bdce57c08b8781cf8b3c3a9f75d51b7ef5a4f0ff"
