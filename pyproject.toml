@@ -16,6 +16,7 @@ flash-attention = "^1.0.0"
 bitsandbytes = "^0.43.0"
 optimum = "^1.18.0"
 auto-gptq = "^0.7.1"
+bitsandbytes-cuda115 = "^0.26.0.post2"
 
 
 [build-system]

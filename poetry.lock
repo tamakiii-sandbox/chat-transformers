@@ -245,6 +245,17 @@ benchmark = ["matplotlib", "pandas"]
 test = ["scipy"]
 
 [[package]]
+name = "bitsandbytes-cuda115"
+version = "0.26.0.post2"
+description = "8-bit optimizers and quantization routines."
+optional = false
+python-versions = "*"
+files = [
+    {file = "bitsandbytes-cuda115-0.26.0.post2.tar.gz", hash = "sha256:952b81d486ae69601dce0def306e73afe54ddf845dc01e405cc7e447004b5c04"},
+    {file = "bitsandbytes_cuda115-0.26.0.post2-py3-none-any.whl", hash = "sha256:2949f39586fed2c7729325037d312cbf7ffc4cf0986de1cd242e7a46af787847"},
+]
+
+[[package]]
 name = "certifi"
 version = "2024.2.2"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -3526,4 +3537,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "b8b81890b83127be2e8db2cda0554fc55b871e8f129c696a456818f23f6cd71c"
+content-hash = "19f3cfdfcd973453e2cfde780e6c9b420f58040a578f79f037bea4aaaa13a81f"
