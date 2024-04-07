@@ -1,5 +1,7 @@
 # chat-transformers
 
+- https://ollama.com/download/linux
+
 ## How to use
 ```sh
 make install
