@@ -19,6 +19,7 @@ auto-gptq = "^0.7.1"
 bitsandbytes-cuda117 = "^0.26.0.post2"
 langchain = "^0.1.14"
 sentence-transformers = "^2.6.1"
+langchain-community = "^0.0.31"
 
 [build-system]
 requires = ["poetry-core"]
