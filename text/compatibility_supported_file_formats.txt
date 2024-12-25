@@ -1,0 +1,19 @@
+# Compatibility & supported file formats:
+
+- **Llama.cpp** (by Georgi Gerganov)
+    - GGUF (new)
+    - GGML (old)
+- **Transformers** (by Huggingface)
+    - bin (unquantized)
+    - safetensors (safer unquantized)
+    - safetensors (quantized using GPTQ algorithm via AutoGPTQ)
+- **AutoGPTQ** (quantization library based on GPTQ algorithm, also available via Transformers)
+    - safetensors (quantized using GPTQ algorithm)
+- **koboldcpp** (fork of Llama.cpp)
+    - bin (using GGML algorithm)
+- **ExLlama v2** (extremely optimized GPTQ backend for LLaMA models)
+    - safetensors (quantized using GPTQ algorithm)
+- **AWQ** (low-bit quantization (INT3/4))
+    - safetensors (using AWQ algorithm)
+
+https://www.reddit.com/r/LocalLLaMA/comments/178el7j/transformers_llamacpp_gguf_ggml_gptq_other_animals/

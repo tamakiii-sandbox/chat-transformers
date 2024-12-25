@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "chat-transformers"
+version = "0.1.0"
+description = ""
+authors = ["tamakiii <tamakiii@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "2.1.2"
+transformers = "^4.39.3"
+sentencepiece = "^0.2.0"
+protobuf = "^5.26.1"
+vllm = "^0.4.0.post1"
+flash-attention = "^1.0.0"
+bitsandbytes = "^0.43.0"
+optimum = "^1.18.0"
+auto-gptq = "^0.7.1"
+bitsandbytes-cuda117 = "^0.26.0.post2"
+langchain = "^0.1.14"
+sentence-transformers = "^2.6.1"
+langchain-community = "^0.0.31"
+faiss-cpu = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
